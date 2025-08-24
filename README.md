@@ -23,6 +23,6 @@ Este projeto foi construído para ser modular e escalável, permitindo a fácil 
 
 Clique no botão abaixo para testar a plataforma de quizzes diretamente no seu navegador!
 
-<a href="(https://thiago7748.github.io/quiz-app)" target="_blank">
+<a href="https://thiago7748.github.io/quiz-app" target="_blank">
     <img src="https://img.shields.io/badge/Acessar%20Plataforma-Online-blue?style=for-the-badge" alt="Acessar Projeto Online">
 </a>
