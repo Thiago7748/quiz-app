@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Quizzes</title>
+
+    <link rel="icon" href="image/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="menu-container" id="menu-disciplinas">
+        <h2>Escolha uma Disciplina para Praticar:</h2>
+        <button class="quiz-selector" data-quiz="bancoDeDados">Fundamentos de Banco de Dados</button>
+        <button class="quiz-selector" data-quiz="sistemasOperacionais">Sistemas Operacionais</button>
+        <button class="quiz-selector" data-quiz="matematica">Matemática para Computação</button>
+    </div>
+
+    <div class="menu-container hidden" id="menu-semanas">
+        <h2 id="titulo-disciplina"></h2>
+        <div id="botoes-semana"></div>
+        <button class="provao-selector">PROVÃO (Todas as Semanas)</button>
+        <button id="voltar-disciplinas">↩️ Voltar</button>
+    </div>
+
+    <div class="quiz-container hidden" id="quiz">
+        <div class="quiz-header">
+            <div class="header-controls">
+                <h2 id="question">Carregando pergunta...</h2>
+                <button id="back-to-menu">↩️ Voltar</button>
+            </div>
+            <ul>
+                <li><input type="radio" name="answer" id="a" class="answer"><label for="a" id="a_text">Opção A</label></li>
+                <li><input type="radio" name="answer" id="b" class="answer"><label for="b" id="b_text">Opção B</label></li>
+                <li><input type="radio" name="answer" id="c" class="answer"><label for="c" id="c_text">Opção C</label></li>
+                <li><input type="radio" name="answer" id="d" class="answer"><label for="d" id="d_text">Opção D</label></li>
+            </ul>
+        </div>
+        <button id="submit">Próxima Pergunta</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
